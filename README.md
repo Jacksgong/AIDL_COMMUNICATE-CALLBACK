@@ -28,7 +28,8 @@ AIDL COMMUNICATE-CALLBACK
   	void callbackBookEvent(int cmd, in Book book);
     }
     
-    
+###     
+最终目的是需要跨进程，AIDLService通过回调通知AIDLClient处理并传递有关值，并且AIDLClient可以通过AIDLService中定义好的AIDL有关方法，进行通知或取值。
 
 ![image](https://github.com/Jacksgong/AIDL_COMMUNICATE-CALLBACK/raw/master/aidl_readme/raw/com_task.png)
 ![image](https://github.com/Jacksgong/AIDL_COMMUNICATE-CALLBACK/raw/master/aidl_readme/raw/bind_succeed.png)
