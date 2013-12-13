@@ -1,12 +1,13 @@
 AIDL COMMUNICATE-CALLBACK
 =========================
 
-本项目主要在于学习Android中通过AIDL完成进程间通信与回调，项目组成：AIDL_SERVICE_LIB[库项目]、AIDL_CLIENT。
----------------------------------------------------------------------------------------------------------
+### 本项目主要在于学习Android中通过AIDL完成进程间通信与回调。
+    项目组成：AIDL_SERVICE_LIB[库项目]、AIDL_CLIENT。
+
     
-    ### 那么主要的需要实现的功能通过几个AIDL文件就可以获知:
-    
-    ###IAIDLService.aidl:
+### 那么主要的需要实现的功能通过几个AIDL文件就可以获知:
+
+### IAIDLService.aidl:
     package cn.dreamtobe.aidl.service;
     import cn.dreamtobe.aidl.service.Book;
     import cn.dreamtobe.aidl.service.IServiceCallback;
@@ -19,7 +20,7 @@ AIDL COMMUNICATE-CALLBACK
     void unregisterCallback(IServiceCallback paramIServiceCallback);
     }
     
-    ###IServiceCallback.aidl:
+### IServiceCallback.aidl:
     package cn.dreamtobe.aidl.service;
     import cn.dreamtobe.aidl.service.Book;
     interface IServiceCallback {
