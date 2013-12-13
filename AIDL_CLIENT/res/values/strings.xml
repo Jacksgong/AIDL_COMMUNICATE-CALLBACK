@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AIDLClient</string>
+    <string name="hello">Hello World, AIDL_CLIENT</string>
+    <string name="start">BindService</string>
+    <string name="stop">UnBindService</string>
+    <string name="get">GetServiceValue</string>
+    <string name="start_task">StartTestTask</string>
+    <string name="stop_task">StopTestTask</string>
+    <string name="request_start_error">need start and bind service first</string>
+    <string name="already_start_task">task already start..</string>
+    <string name="not_bind_tip">Not Yet bind.</string>
+    <string name="bind_tip">Bind succeed.</string>
+    <string name="unbind_tip">Unbind succeed.</string>
+    <string name="tips"> - dreamtobe.cn</string>
+</resources>
