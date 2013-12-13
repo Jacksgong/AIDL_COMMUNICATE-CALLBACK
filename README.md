@@ -1,4 +1,4 @@
-AIDL COMMUNICATE-CALLBACK
+AIDL COMMUNICATE&CALLBACK
 =========================
 
 ### 本项目主要在于学习Android中通过AIDL完成进程间通信与回调。
