@@ -220,6 +220,7 @@ public class AIDLClient extends Activity implements OnClickListener, ServiceConn
 					@Override
 					public void run() {
 						mCallBackTv.setText(String.valueOf(param));
+						mProgressBar.setProgress(param);
 					}
 				});
 
